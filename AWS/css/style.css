@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+}
+
+/* NAVBAR */
+header {
+    background: #1a1a1a;
+    padding: 20px 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #00e5ff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: #00e5ff;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    min-height: 90vh;
+}
+
+.hero img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.hero-content {
+    width: 50%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    color: #ccc;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #00e5ff;
+    color: #000;
+    text-decoration: none;
+    width: fit-content;
+}
+
+/* SECTION */
+.section {
+    padding: 80px 60px;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+    color: #00e5ff;
+}
+
+/* CARDS */
+.card {
+    background: #1f1f1f;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* FORM */
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #00e5ff;
+    border: none;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media(max-width: 900px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero img, .hero-content {
+        width: 100%;
+    }
+}

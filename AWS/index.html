@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanashree | Portfolio</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100">
+
+<!-- ================= NAVBAR ================= -->
+<header class="fixed w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold gradient-text">Portfolio</a>
+
+        <div class="hidden md:flex space-x-8">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="min-h-screen flex items-center pt-24">
+    <div class="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+            <h1 class="text-5xl font-bold">
+                Hi, I'm <span class="gradient-text">Vanashree</span>
+            </h1>
+            <p class="mt-4 text-lg">
+                AI & ML Engineer | Python Developer
+            </p>
+        </div>
+
+        <div class="flex justify-center">
+            <img src="images/vana1.jpeg"
+                 class="w-72 rounded-full border-4 border-sky-400">
+        </div>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="about-section">
+    <h2 class="section-title">
+        About <span>Me</span>
+    </h2>
+
+    <div class="about-container">
+
+        <!-- LEFT IMAGE -->
+        <div class="about-image">
+            <img src="images/about.png" alt="About Me">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="about-content">
+            <h3>Who I Am</h3>
+
+            <p>
+               Enthusiastic AIML engineering student skilled in Python, computer vision, deep learning, and real-time AI using OpenCV, MediaPipe, and YOLOv8, with internships at Google AICTE, AWS Academy, and InLighnX, plus leadership experience as AIML President and IEEE Treasurer and strong communication.
+            </p>
+
+            <!-- INFO CARDS -->
+            <div class="info-cards">
+
+                <div class="info-card">
+                    <div class="icon blue">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div>
+                        <h4>Education</h4>
+                        <p>
+                            B.E in AIML <br>
+                            Srinivas Institute Of Tehnology, 2026
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon green">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div>
+                        <h4>Experience</h4>
+                        <p>
+                            AI/ML Intern | Google AICTE EduSkills, AWS Academy, InLighnX Global | 2023–2024<br>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- =====================================================
+
+     PROJECTS SECTION
+
+===================================================== -->
+
+<section id="projects" class="py-20 bg-gray-50 dark:bg-gray-900">
+
+    <div class="container mx-auto px-6">
+
+        <h2 class="text-3xl font-bold text-center mb-12">
+
+            My <span class="gradient-text">Projects</span>
+
+        </h2>
+
+
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+
+
+            <!-- PROJECT CARD -->
+
+            <div class="project-card border">
+
+
+
+                <img src="images/Raksha Netra.png" alt="Project Image">
+
+
+
+                <div class="p-5">
+
+                    <h3 class="text-xl font-semibold mb-2 highlight-text">
+
+                        RakshaNetra:Wild Animal Detection & Notification System
+
+                    </h3>
+
+
+
+                    <p class="text-sm mb-4">
+
+                        Real-time <span class="highlight-text">YOLOv5-based</span>
+
+                        detection system using OpenCV.
+
+                    </p>
+
+
+
+                    <a href="https://github.com/Vanashree123/Animal_detection"
+
+                       target="_blank"
+
+                       class="project-link">
+
+                        <i class="fab fa-github"></i> Source Code
+
+                    </a>
+
+                </div>
+
+
+
+            </div>
+
+
+
+             <div class="project-card border">
+
+
+
+                <img src="images/A.png" alt="Project Image">
+
+
+
+                <div class="p-5">
+
+                    <h3 class="text-xl font-semibold mb-2 highlight-text">
+
+                        CurlCounter
+
+                    </h3>
+
+
+
+                    <p class="text-sm mb-4">
+
+                        Real-time <span class="highlight-text">MediaPipe</span>
+
+                        detection system using OpenCV that counts teh biceps curl.
+
+                    </p>
+
+
+
+                    <a href="https://github.com/Vanashree123/CurlCounterAI"
+
+                       target="_blank"
+
+                       class="project-link">
+
+                        <i class="fab fa-github"></i> Source Code
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="project-card border">
+
+
+
+                <img src="images/B.png" alt="Project Image">
+
+
+
+                <div class="p-5">
+
+                    <h3 class="text-xl font-semibold mb-2 highlight-text">
+
+                        DermAI:Skincare Recommendation System
+
+                    </h3>
+
+
+
+                    <p class="text-sm mb-4">
+
+                        Real-time <span class="highlight-text">CNN based</span>
+
+                        Personalized Skincare Recommendation System.
+
+                    </p>
+
+
+
+                    <a href="https://github.com/Vanashree123/DermAI-Personalized-Skincare-Recommendation-system-"
+
+                       target="_blank"
+
+                       class="project-link">
+
+                        <i class="fab fa-github"></i> Source Code
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SKILLS SECTION ================= -->
+<section class="skills-section" id="skills">
+    <h1 class="section-title">My Skills</h1>
+
+    <div class="skills-container">
+
+        <!-- Skill Card -->
+        <div class="skill-card">
+            <div class="skill-header">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+                <small>90%</small>
+            </div>
+            <div class="progress-bar">
+                <div class="progress python"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-header">
+                <i class="fa-solid fa-brain"></i>
+                <span>Machine Learning</span>
+                <small>85%</small>
+            </div>
+            <div class="progress-bar">
+                <div class="progress ml"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-header">
+                <i class="fa-solid fa-eye"></i>
+                <span>Computer Vision</span>
+                <small>80%</small>
+            </div>
+            <div class="progress-bar">
+                <div class="progress cv"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-header">
+                <i class="fa-brands fa-js"></i>
+                <span>Deep Learning</span>
+                <small>75%</small>
+            </div>
+            <div class="progress-bar">
+                <div class="progress js"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-header">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML</span>
+                <small>90%</small>
+            </div>
+            <div class="progress-bar">
+                <div class="progress html"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-header">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS / Tailwind</span>
+                <small>85%</small>
+            </div>
+            <div class="progress-bar">
+                <div class="progress css"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-header">
+                <i class="fa-brands fa-github"></i>
+                <span>Git & GitHub</span>
+                <small>80%</small>
+            </div>
+            <div class="progress-bar">
+                <div class="progress git"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-header">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <span>Cloud & Networking</span>
+                <small>60%</small>
+            </div>
+            <div class="progress-bar">
+                <div class="progress responsive"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="py-20 bg-[#0b1220] text-white">
+  <div class="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+    <!-- Left: Contact Info -->
+    <div class="text-left">
+      <h2 class="text-3xl font-bold mb-4">Contact Information</h2>
+      <p class="text-gray-400 mb-8">
+        Feel free to reach out to me for project inquiries, collaborations, or just to say hello.
+        I'll get back to you as soon as possible.
+      </p>
+
+      <div class="space-y-6">
+        <!-- Email -->
+        <div class="flex items-center gap-4">
+          <div class="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600">
+            📧
+          </div>
+          <span>vanashreeacharya@gmail.com</span>
+        </div>
+
+        <!-- Phone -->
+        <div class="flex items-center gap-4">
+          <div class="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600">
+            📞
+          </div>
+          <span>+91 72591 26384</span>
+        </div>
+
+        <!-- Location -->
+        <div class="flex items-center gap-4">
+          <div class="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600">
+            📍
+          </div>
+          <span>Karnataka, India</span>
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="mt-10">
+        <h3 class="mb-4 font-semibold">Follow Me</h3>
+        <div class="flex gap-4">
+          <a href="https://github.com/Vanashree123" target="_blank"
+            class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center hover:bg-blue-600 transition">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/vanashree-acharya/" target="_blank"
+            class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center hover:bg-blue-600 transition">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Right: Contact Form -->
+    <div class="bg-[#1f2937] p-8 rounded-xl shadow-lg">
+      <form class="space-y-6">
+        <div>
+          <label class="block mb-2 text-sm">Name</label>
+          <input type="text"
+            class="w-full px-4 py-3 rounded bg-[#374151] focus:outline-none focus:ring-2 focus:ring-blue-600" />
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm">Email</label>
+          <input type="email"
+            class="w-full px-4 py-3 rounded bg-[#374151] focus:outline-none focus:ring-2 focus:ring-blue-600" />
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm">Subject</label>
+          <input type="text"
+            class="w-full px-4 py-3 rounded bg-[#374151] focus:outline-none focus:ring-2 focus:ring-blue-600" />
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm">Message</label>
+          <textarea rows="4"
+            class="w-full px-4 py-3 rounded bg-[#374151] focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+        </div>
+
+        <button
+          class="w-full py-3 rounded bg-blue-600 hover:bg-blue-700 transition font-semibold">
+          Send Message
+        </button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+<footer class="text-center py-6 bg-gray-900 text-gray-400">
+    © 2025 Vanashree
+</footer>
+
+<!-- Skill Animation Script -->
+<script>
+const bars = document.querySelectorAll('.progress span');
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.style.width = entry.target.dataset.width;
+        }
+    });
+},{ threshold: 0.5 });
+
+bars.forEach(bar => observer.observe(bar));
+</script>
+
+</body>
+</html>
