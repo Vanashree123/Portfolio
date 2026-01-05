@@ -1,65 +1,127 @@
 Personal Portfolio Website
 📌 Overview
 
-This is my personal portfolio website designed to showcase my skills, projects, achievements, and professional journey. The website serves as a digital resume and provides an overview of my background, technical expertise, and contact information in a simple and user-friendly manner.
+This repository contains my Personal Portfolio Website, created as part of the technical assignment. The website showcases my skills, projects, and contact information with a clean, responsive, and user-friendly design.
 
-🎯 Purpose
+The project focuses on frontend fundamentals and cloud deployment concepts.
 
-The main purpose of this portfolio is to:
+🌐 Live Demo
 
-Present my academic and technical profile
+Live URL: http://portfolio-p7co.vercel.app/
 
-Highlight projects and practical experience
+🛠️ Technology Stack
 
-Showcase skills in Artificial Intelligence, Machine Learning, and software development
+Frontend: HTML5, CSS3, JavaScript
 
-Provide an easy way for recruiters and collaborators to connect with me
+Styling: CSS Flexbox & Media Queries
 
-🧩 Features
+Deployment: Vercel
 
-Home Section – Brief introduction and career objective
+Version Control: Git & GitHub
 
-About Me – Educational background and interests
+📂 Website Sections
+
+About Me – Brief introduction and background
 
 Skills – Technical skills and tools
 
-Projects – Details of academic and personal projects
+Projects – 2–3 sample projects with descriptions
 
-Resume – Downloadable resume
+Contact – Contact form with client-side validation
 
-Contact – Email and social media links
+📱 Responsiveness
 
-Responsive Design – Works on desktop, tablet, and mobile devices
+The website is fully responsive and optimized for:
 
-🛠️ Technologies Used
+Mobile devices
 
-Frontend: HTML, CSS, JavaScript
+Tablets
 
-(Optional additions: Bootstrap / Tailwind / React if used)
+Desktop screens
 
-Hosting: GitHub Pages / Netlify / Vercel
+✅ Features Implemented
 
-🚀 How to Run Locally
+Responsive layout
 
-Clone the repository
+Clean and modern UI
 
-git clone https://github.com/vanashree123/portfolio.git
+Contact form validation using JavaScript
+
+Smooth scrolling and basic transitions
+
+SEO-friendly HTML structure
+
+☁️ Deployment Details
+Intended AWS Setup (As per Assignment Requirements)
+
+The original plan was to deploy the website using:
+
+AWS S3 for static website hosting
+
+AWS CloudFront for HTTPS and global content delivery
+
+Planned Steps:
+
+Create an S3 bucket and enable static website hosting
+
+Upload build files and configure bucket policy
+
+Create a CloudFront distribution pointing to the S3 bucket
+
+Enable HTTPS and configure default root object
+
+Challenge Faced
+
+While configuring AWS S3, billing activation was required and no free-tier option was available for static website hosting at the time of deployment.
+
+Alternative Solution
+
+To ensure timely submission, the website was deployed using Vercel, which provides:
+
+Free HTTPS
+
+Fast global CDN
+
+Simple CI/CD integration with GitHub
+
+This decision allowed successful deployment while maintaining performance and reliability best practices.
+
+🧪 Setup Instructions (Local)
+
+Clone the repository:
+
+git clone https://github.com/Vanashree123/portfolio.git
 
 Open the project folder
 
-Open index.html in your browser
+Run using Live Server or open index.html in a browser
 
+
+🎯 Design Decisions
+
+Minimalistic layout for clarity
+
+Section-based navigation for better UX
+
+Neutral color palette for professionalism
+
+Simple animations to enhance user experience without distraction
+
+🚀 Future Enhancements
+
+Custom domain setup
+
+Backend-powered contact form
+
+Dark mode
+
+Image lazy loading
 
 👤 Author
 
-Vanashree
-
-Portfolio: your-portfolio-link
-
-GitHub: https://github.com/vanashree123
-
-LinkedIn: https://linkedin.com/in/vanashree_acharya
+Name: Vanashree
+GitHub: https://github.com/Vanashree123
 
 📄 License
 
-This project is open-source and available under the MIT License.
+This project is for evaluation and educational purposes only.
